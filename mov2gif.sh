@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# ‘chmod +x filename.sh’ to make the script executbale by typing ‘./filename.sh argument’
-# $1 ist the first argument after the command, here the path to the directory containing the quicktime movies that need converting to gif.
+# $1 ist the first argument after the command.
 # ${1%/} strips the ‘/’ if it’s there.
 # ${i%.mov} strips the filename extension ‘.mov’.
 
